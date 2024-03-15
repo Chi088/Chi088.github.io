@@ -3,13 +3,31 @@
     box-sizing: border-box;
 }
 
+body {
+    border: solid 1px black; 
+
+}
+
+.flex-container {
+    display: flex;
+    padding: 40px;
+}
+
+
+
+.inline-pics {
+    display: inline;
+}
+
 h1 {
     text-align: center;
 }
 
+
+
 nav a {
     display: inline;
-    float: left;
+    
     width:11.25rem;
 
     
@@ -22,17 +40,36 @@ nav {
 
 figure img {
     width:100%;
-    max-width:10rem;
+    max-width:20rem;
     float: left;
     margin-right: 10px;
 
+
     
+}
+
+img {
+    width: 100%;
+}
+
+.side-section {
+
+    margin-left: 10px;
+    max-width: 250px; 
+    border-left: solid 1px black;
+    padding-left: 10px;
 }
 
 p {
     vertical-align: 10px;
     
 }
+
+
+.subscript p {
+    text-align: right;
+}
+
 
 
         /* 
